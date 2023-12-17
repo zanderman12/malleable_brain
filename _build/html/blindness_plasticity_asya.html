@@ -1,0 +1,971 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Beyond Sight &#8212; The Malleable Brain</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'blindness_plasticity_asya';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Brain in Peril: The Effect of Alzheimer’s On Plasticity" href="alzheimers_chapter_megha.html" />
+    <link rel="prev" title="Neuroplasticity and sensory loss: The brain reorganization after amputation and impairment of senses" href="sensory_loss_chapter_zu.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="The Malleable Brain - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="The Malleable Brain - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    The Malleable Brain
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="genetics_chapter_adrienne.html">The Genetics of Neuroplasticity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="aging_chapter_anait.html">Neuroplasticity  and Aging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="landscapes_chapter_alex.html">Neural Landscapes : How Our Brain is Shaped by Rural and Urban Environments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sleep_chapter_sam.html">Neuroplasticity of Sleep</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exercise_chapter_zoya.html">Mind-Body Synergy: Unveiling the Interplay of Exercise, Meditation, and Mental Well-Being</a></li>
+<li class="toctree-l1"><a class="reference internal" href="movement_chapter_lauren.html">Movement Training Effects on Plasticity in the Motor System</a></li>
+<li class="toctree-l1"><a class="reference internal" href="music_chapter_troy.html">Learning to play the Brain: The effect of Musical Training on the brain</a></li>
+<li class="toctree-l1"><a class="reference internal" href="music_chapter_kristina.html">Music  and the Brain: How Music Activates the Brain and Stimulates Plasticity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="drugs_chapter_moonlight.html">Cognitive Elixirs: Unraveling the Reality of Neuroactive Compounds</a></li>
+<li class="toctree-l1"><a class="reference internal" href="technology_chapter_candi.html">Artificially Changing The Brain: The effect of technology on our neural plasticity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sensory_loss_chapter_zu.html">Neuroplasticity and sensory loss: The brain reorganization after amputation and impairment of senses</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Beyond Sight</a></li>
+<li class="toctree-l1"><a class="reference internal" href="alzheimers_chapter_megha.html">Brain in Peril: The Effect of Alzheimer’s On Plasticity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="migraine_chapter_morgan.html">Migraines and Neurological Plasticity</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fblindness_plasticity_asya.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/blindness_plasticity_asya.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Beyond Sight</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cross-plasticity">Cross-Plasticity:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#multimodal-plasticity">Multimodal Plasticity:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#functional-and-structural-neuroplasticity">Functional and structural neuroplasticity:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vision-loss-and-brain-impact">Vision Loss and Brain Impact:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#early-life-experiences-and-neural-plasticity">Early Life Experiences and Neural Plasticity:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#specific-visual-deprivation-studies">Specific Visual Deprivation Studies</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#impact-of-temporary-visual-deprivation-on-the-brain-a-neuroplasticity-study">Impact of Temporary Visual Deprivation on the Brain: A Neuroplasticity Study</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#neuroplasticity-and-memory-in-visually-impaired-individuals">Neuroplasticity and Memory in Visually Impaired Individuals</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-role-of-tactile-maps-in-enhancing-memory">The Role of Tactile Maps in Enhancing Memory</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#variability-in-imagination">Variability in Imagination:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#case-study-alena-and-danas-experiences">Case Study– Alena and Dana’s Experiences</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#can-people-with-blindness-develop-rich-imagination-and-memory-without-sight">Can People with Blindness Develop Rich Imagination and Memory Without Sight?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#chapter-quiz">Chapter Quiz</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#answer-key">Answer Key:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="beyond-sight">
+<h1><a class="toc-backref" href="#id1" role="doc-backlink">Beyond Sight</a><a class="headerlink" href="#beyond-sight" title="Permalink to this heading">#</a></h1>
+<p><em>By: Asya Leschinsky</em></p>
+<nav class="contents" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#beyond-sight" id="id1">Beyond Sight</a></p>
+<ul>
+<li><p><a class="reference internal" href="#cross-plasticity" id="id2">Cross-Plasticity:</a></p></li>
+<li><p><a class="reference internal" href="#multimodal-plasticity" id="id3">Multimodal Plasticity:</a></p></li>
+<li><p><a class="reference internal" href="#functional-and-structural-neuroplasticity" id="id4">Functional and structural neuroplasticity:</a></p></li>
+<li><p><a class="reference internal" href="#vision-loss-and-brain-impact" id="id5">Vision Loss and Brain Impact:</a></p></li>
+<li><p><a class="reference internal" href="#early-life-experiences-and-neural-plasticity" id="id6">Early Life Experiences and Neural Plasticity:</a></p></li>
+<li><p><a class="reference internal" href="#specific-visual-deprivation-studies" id="id7">Specific Visual Deprivation Studies</a></p></li>
+<li><p><a class="reference internal" href="#impact-of-temporary-visual-deprivation-on-the-brain-a-neuroplasticity-study" id="id8">Impact of Temporary Visual Deprivation on the Brain: A Neuroplasticity Study</a></p></li>
+<li><p><a class="reference internal" href="#neuroplasticity-and-memory-in-visually-impaired-individuals" id="id9">Neuroplasticity and Memory in Visually Impaired Individuals</a></p></li>
+<li><p><a class="reference internal" href="#the-role-of-tactile-maps-in-enhancing-memory" id="id10">The Role of Tactile Maps in Enhancing Memory</a></p></li>
+<li><p><a class="reference internal" href="#variability-in-imagination" id="id11">Variability in Imagination:</a></p></li>
+<li><p><a class="reference internal" href="#case-study-alena-and-danas-experiences" id="id12">Case Study– Alena and Dana’s Experiences</a></p></li>
+<li><p><a class="reference internal" href="#can-people-with-blindness-develop-rich-imagination-and-memory-without-sight" id="id13">Can People with Blindness Develop Rich Imagination and Memory Without Sight?</a></p></li>
+<li><p><a class="reference internal" href="#chapter-quiz" id="id14">Chapter Quiz</a></p>
+<ul>
+<li><p><a class="reference internal" href="#answer-key" id="id15">Answer Key:</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#references" id="id16">References</a></p></li>
+</ul>
+</li>
+</ul>
+</nav>
+<p>Understanding the experiences of people with visual impairments, particularly in relation to memory and
+imagination, requires understanding neuroplasticity, the brain’s remarkable ability to change and adapt.
+This flexibility of the central nervous system is essential for adjusting to new learning experiences,
+trauma, or novel situations. Visual impairment causes the brain to rearrange and amplify other sensory
+modalities. The following sections discuss cross-plasticity, multimodal plasticity, and functional and
+structural neuroplasticity, which underlie this adaptation.</p>
+<section id="cross-plasticity">
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">Cross-Plasticity:</a><a class="headerlink" href="#cross-plasticity" title="Permalink to this heading">#</a></h2>
+<p>Cross-plasticity is a complex neuronal rearrangement in which the brain uses regions dedicated to one
+sense to enhance another.[1] The occipital cortex, the brain’s main vision-processing area, shows this
+rearrangement. Without visual input, this region doesn’t rest. It transforms to mirror the brain’s
+extraordinary plasticity. Synaptic pruning eliminates superfluous neuronal connections, including those
+created for vision, in the occipital cortex. Clearing unneeded wiring makes place for new connections.
+Afterwards, the brain rewires to improve hearing, touch, and smell.[1] The brain’s adaptation to sensory loss
+is dynamic and sensitive because this rewiring is directed by experience and demand. Visually impaired
+people often improve in other senses as the brain strengthens connections. Improved auditory processing
+may increase sound and location perception, while improved tactile sensitivity may improve touch and
+spatial awareness. Cross-modal sensory augmentation is not just compensatory; it transforms the brain’s
+sensory processing environment.[1]</p>
+</section>
+<section id="multimodal-plasticity">
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Multimodal Plasticity:</a><a class="headerlink" href="#multimodal-plasticity" title="Permalink to this heading">#</a></h2>
+<p>Multimodal plasticity views the brain’s sensory loss adaptation holistically. It involves reorganizing the
+brain’s neural network and enhancing senses.[2] Due to this reconfiguration, brain areas work together more
+closely to process sensory information without visual input. Due to visual input primacy, this plasticity
+activates brain networks that were dormant or underutilized. These pathways become more active when
+vision is lost, allowing non-vision-related brain regions to handle sensory information. This brain change
+allows for a more complex processing of non-visual sensory input.[2] Auditory cortex may become more
+involved in spatial navigation, previously dominated by visual cortex. Memory and cognition may also
+benefit from touch processing brain regions.[2] This brain network balance change shows the brain’s
+plasticity and sensory processing’s interconnection.</p>
+</section>
+<section id="functional-and-structural-neuroplasticity">
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">Functional and structural neuroplasticity:</a><a class="headerlink" href="#functional-and-structural-neuroplasticity" title="Permalink to this heading">#</a></h2>
+<p>In functional neuroplasticity, the brain redistributes tasks among its areas. In visual impairment, it reveals
+how the brain can shift visual cortex functions to other undamaged areas. This plasticity is essential when
+brain regions are damaged by injury, disease, or sensory deprivation, demonstrating the brain’s resilience.[3]
+Though using distinct brain routes and areas, it maintains cognitive and sensory processing. In contrast,
+structural neuroplasticity alters brain architecture. Synaptogenesis establishes new synaptic connections
+and strengthens existing ones. This neuroplasticity is crucial for brain adaptation and learning. It supports
+the brain’s ability to compensate for lost functions and improve its capacities throughout time, indicating
+an ongoing process of growth and adaptability to new experiences and learnings.[3] Functional and
+structural neuroplasticity demonstrate the brain’s amazing adaptability, especially in visual impairment
+and sensory processing mechanism reconfiguration.</p>
+</section>
+<section id="vision-loss-and-brain-impact">
+<h2><a class="toc-backref" href="#id5" role="doc-backlink">Vision Loss and Brain Impact:</a><a class="headerlink" href="#vision-loss-and-brain-impact" title="Permalink to this heading">#</a></h2>
+<p>Vision loss, a fundamental sensory deficit, causes profound brain neuroplastic alterations.
+Neuroplasticity—the brain’s ability to generate new neural connections—is essential to replacing lost
+sensory input. Changes in brain networks, synaptic activity, and cortical remapping, especially in the
+visual processing occipital lobe, can reveal this compensation. The brain’s adaptability to congenital or
+acquired vision loss reveals sensory substitution and neuroplasticity pathways. Congenital blindness
+causes unique neuroplasticity as the brain organizes without visual input. This significantly rewires
+vision-related regions, generally improving auditory and tactile processing. Functional MRI studies
+demonstrate higher activity in these areas when congenitally blind people execute non-visual tasks.
+However, acquired blindness causes a distinct neuroplastic response. Once dependent on visual cues, the
+brain must reroute and strengthen other sensory pathways. This process incorporates adult brain synaptic
+pruning and synaptogenesis, contradicting the idea that important synaptic alterations are relegated to
+early development.</p>
+</section>
+<section id="early-life-experiences-and-neural-plasticity">
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">Early Life Experiences and Neural Plasticity:</a><a class="headerlink" href="#early-life-experiences-and-neural-plasticity" title="Permalink to this heading">#</a></h2>
+<p>Understanding neuroplasticity requires understanding important periods in early development. Brain
+sensitivity to specific sensory input increases within these periods, altering long-term neural architecture.
+Visual input deprivation during these important periods can cause persistent brain alterations, according to
+developmental neurobiology studies. Monocular deprivation experiments in kittens show that sensory
+input timing and length strongly influence the visual cortex’s neuronal plasticity.[4] These discoveries have
+major implications for understanding human neuroplasticity development, especially in congenital
+blindness. Recent neuroimaging advances have transformed our understanding of adult brain plasticity.
+Adult brain functions were long thought to be stable. However, investigations of blind adults have
+demonstrated that the adult brain is very neuroplastic. In the restructuring of the visual cortex, neurons
+that processed visual information are recruited for other sensory tasks.[4] Blind people’s visual cortex
+responds more to auditory and touch stimuli, a phenomenon called cross-modal plasticity. This sensory
+processing reassignment shows the brain’s ability to adapt and reorganize in maturity.[1]</p>
+</section>
+<section id="specific-visual-deprivation-studies">
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">Specific Visual Deprivation Studies</a><a class="headerlink" href="#specific-visual-deprivation-studies" title="Permalink to this heading">#</a></h2>
+<p>Neuroplasticity and its impact during early development in cases of sensory deprivation provides insight
+into specific studies. These studies, with an emphasis on visual impairments, examine their effects on
+memory formation and cognitive abilities. The exploration begins with an investigation into the capacity
+for memory formation in visually impaired individuals. The absence of visual input raises questions about
+the brain’s ability to store and retrieve memories, particularly in non-visual domains. This inquiry will
+include an examination of the role of tactile tests, such as the use of tactile maps, in facilitating memory
+and cognitive functions. These tactile tools provide a unique window into understanding the spatial and
+memory capabilities of individuals without sight. Additionally, the realm of imagination in visually
+impaired individuals will be explored. The discussion will center on whether imagination can exist and
+flourish in the absence of visual experiences and how the brain’s adaptive mechanisms might enable the
+creation of mental images and concepts without reliance on visual cues. These inquiries are aimed at
+painting a comprehensive picture of the cognitive landscape in visual impairment, uncovering the
+profound capabilities and adaptability of the human brain. In the following sections, the text will unpack
+these questions, drawing on scientific research and real-world applications to provide a deeper
+understanding of neuroplasticity and its implications in the context of visual impairment.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Visual Prostheses in Ophthalmology</strong></p>
+<p>Visual prostheses, at the forefront of ophthalmology and neuroscience, offer the potential for
+vision restoration in individuals with severe visual impairments. Although these implantable devices are
+still in developmental stages, some have already entered the market. However, their capability to restore
+vision is currently limited, providing only low spatial resolution.</p>
+<p>These devices work by electrically stimulating parts of the visual pathway to substitute lost visual input, a
+concept rooted in early 20th-century research. Modern visual prostheses have evolved to use patterned
+electrical stimulation to create visual percepts in the brain. Today’s devices target various parts of the
+visual system, including the retina and optic nerve, showing promise in clinical trials, especially for
+conditions like retinitis pigmentosa.[8]</p>
+<p>Yet, the introduction of visual prosthetics brings a dynamic shift in the sensory experiences of
+visually impaired individuals. Typically, these individuals develop enhanced tactile and auditory senses to
+compensate for their vision loss. The advent of visual prosthetics, aiming to restore some level of vision,
+could disrupt this sensory balance. The brain, which has reorganized to amplify non-visual senses, may
+need to undergo another reorganization phase with the introduction of prosthetic vision. This could lead to
+a shift in how individuals rely on their enhanced senses, potentially rebalancing their sensory inputs as the
+brain integrates new visual information.</p>
+<p>The field faces challenges such as long-term viability and biocompatibility of stimulating
+electrodes, patient selection, and tailored rehabilitation strategies.[8] Understanding the brain’s
+neuroplasticity and how it adapts to sensory loss and new inputs from prosthetics is crucial. The impact of
+restored vision on enhanced tactile and auditory senses varies among individuals and depends on factors
+like the degree of vision restoration and personal adaptability.</p>
+<p>Overall, visual prostheses represent a significant advancement with the potential to restore sight,
+but they also bring complex challenges in technological, biological, and rehabilitative aspects. The
+interplay of sensory processes in individuals with visual impairments is intricate, and the field continues
+to evolve with contributions from neuroscience, bioengineering, and medical technology.</p>
+</div>
+</section>
+<section id="impact-of-temporary-visual-deprivation-on-the-brain-a-neuroplasticity-study">
+<h2><a class="toc-backref" href="#id8" role="doc-backlink">Impact of Temporary Visual Deprivation on the Brain: A Neuroplasticity Study</a><a class="headerlink" href="#impact-of-temporary-visual-deprivation-on-the-brain-a-neuroplasticity-study" title="Permalink to this heading">#</a></h2>
+<p>The study of Neuroplasticity in visual impairments provides a fascinating insight into how temporary
+visual deprivation affects the brain, specifically showcasing cross-plasticity and multimodal plasticity.
+When one eye is temporarily blinded in sighted adults, the brain’s visual cortex, which processes vision,
+undergoes significant changes. This is evident in the use of Transcranial Magnetic Stimulation (TMS), a
+technique that can induce a light sensation known as phosphene in the absence of visual input.[6] The
+responsiveness to TMS indicates the level of brain activation and demonstrates functional neuroplasticity
+– the brain’s capacity to redistribute tasks among different regions.[6] For instance, studies have shown that
+after 45 minutes of visual deprivation, the required TMS intensity to elicit phosphenes decreases,
+indicating an increase in the visual cortex’s activity.[6] This heightened activity illustrates the brain’s rapid
+adaptation to sensory loss, a hallmark of neuroplasticity. Furthermore, fMRI scans reveal how this activity
+normalizes once vision is restored, exemplifying structural neuroplasticity, which involves physical
+changes in the brain’s structure, such as the formation of new synaptic connections. The contrasting
+effects of monocular (covering one eye) versus binocular (covering both eyes) deprivation are particularly
+notable. In monocular deprivation, the visual cortex’s activity decreases, which is a clear sign of
+cross-plasticity, where the loss of function in one sensory modality (vision in one eye) results in the
+enhancement of another (the other eye).[1,6] High-resolution fMRI studies have tracked these neural
+changes, indicating a significant shift in the brain’s response to visual stimuli, showing the brain’s
+multimodal plasticity in reorganizing its neural network for sensory processing.</p>
+</section>
+<section id="neuroplasticity-and-memory-in-visually-impaired-individuals">
+<h2><a class="toc-backref" href="#id9" role="doc-backlink">Neuroplasticity and Memory in Visually Impaired Individuals</a><a class="headerlink" href="#neuroplasticity-and-memory-in-visually-impaired-individuals" title="Permalink to this heading">#</a></h2>
+<p>These findings suggest that the brain’s neuroplasticity, particularly in sensory processing, might influence
+memory functions in visually impaired individuals. The brain seems to compensate for the loss of visual
+input by increasing activity in other sensory areas, potentially strengthening auditory or tactile memory.[1]
+This implies a reorganization of brain functions to optimize the use of available sensory information,
+indicating that visually impaired individuals might develop enhanced memory capabilities in non-visual
+domains, a form of cross-plasticity.[1] Moreover, the reorganization of brain functions to optimize sensory
+information use reflects the principles of multimodal plasticity.[2]</p>
+</section>
+<section id="the-role-of-tactile-maps-in-enhancing-memory">
+<h2><a class="toc-backref" href="#id10" role="doc-backlink">The Role of Tactile Maps in Enhancing Memory</a><a class="headerlink" href="#the-role-of-tactile-maps-in-enhancing-memory" title="Permalink to this heading">#</a></h2>
+<p>Tactile maps, especially when 3-D printed, offer a unique avenue for memory enhancement in visually
+impaired individuals. These maps do more than aid navigation; they actively engage the brain in a way
+that compensates for the absence of visual stimuli. Neuroimaging studies have shown that when visually
+impaired individuals interact with tactile maps, there’s a marked increase in activity in the hippocampus, a
+brain region critical for memory and spatial navigation.[5]</p>
+<p>This heightened activity in the hippocampus involves the processing and integration of spatial information
+gathered through touch. The hippocampus is crucial for forming and retrieving spatial memories, and its
+activation with tactile stimuli indicates a dynamic process of creating mental maps.
+5When visually impaired individuals use tactile maps, their hippocampus works to translate the tactile information into
+detailed spatial representations, similar to how it processes visual spatial information in sighted
+individuals. In neuroimaging studies involving these individuals, several key changes are observed in the
+hippocampus. There’s an increase in blood flow to this region, evident as brighter or more intense areas
+on functional MRI (fMRI) scans, signifying higher oxygen consumption and neural activity.[5] The images
+also reveal a more extensive activation pattern in the hippocampus during the processing of spatial
+information from tactile maps, showing larger active regions compared to non-spatial tasks.[5] Additionally,
+changes in functional connectivity are noted, with increased communication between the hippocampus
+and other brain regions involved in sensory processing and spatial memory, visible as enhanced neural
+network pathways.[5] When compared with sighted individuals engaged in visual spatial tasks, the
+activation patterns in the hippocampus are similar, underscoring the brain’s ability to process spatial
+information across different sensory modalities.</p>
+<p>Research, such as the study Cognitive map formation in the blind is enhanced by three-dimensional tactile
+information, confirms these neural changes. In this study, visually impaired individuals demonstrated
+improved navigation skills in complex mazes when using 3-D tactile maps, suggesting a direct correlation
+between tactile map use and enhanced spatial memory and cognition. This evidence points to the
+remarkable neuroplasticity of the brain, showing how it can rewire and adapt, utilizing other sensory
+modalities to compensate for the lack of vision, and underscores the significant role of tactile maps in
+enhancing cognitive functions in visually impaired individuals.</p>
+</section>
+<section id="variability-in-imagination">
+<h2><a class="toc-backref" href="#id11" role="doc-backlink">Variability in Imagination:</a><a class="headerlink" href="#variability-in-imagination" title="Permalink to this heading">#</a></h2>
+<p>Human memory and imagination are intricately linked through shared neural networks, involving key
+areas like the hippocampus and prefrontal cortex.[3] This connection is a prime example of functional
+neuroplasticity, where the brain flexibly reallocates functions across different regions. In visually
+impaired individuals, this neuroplasticity takes on unique forms. Cross-plasticity is evident as their brains
+often enhance non-visual senses, like auditory memory, to compensate for the lack of sight. For instance,
+congenitally blind individuals might develop a robust auditory imagination, while those who acquire
+blindness later could integrate residual visual memories.[7] Multimodal plasticity is also at play, allowing
+their brains to process and integrate sensory information in a more interconnected manner, enriching their
+imaginative experiences.</p>
+</section>
+<section id="case-study-alena-and-danas-experiences">
+<h2><a class="toc-backref" href="#id12" role="doc-backlink">Case Study– Alena and Dana’s Experiences</a><a class="headerlink" href="#case-study-alena-and-danas-experiences" title="Permalink to this heading">#</a></h2>
+<p>Visually impaired people have a vivid imagination. Alena and Dana, who volunteered to be used in The
+person in a situation of visual impairment and its perception and imagination from the qualitative
+viewpoint, share their experience with gradual vision loss and show us how they imagine the world using
+their other senses. Alena and Dana, visually impaired individuals, have unique stories. A scarlet fever
+illness in her mother caused Alena’s eye problems prenatally, while stickler syndrome caused Dana’s. The
+women remember their vision being clearer in childhood and deteriorating with time. Elena is 31 and
+lives with her family; Dana is 37 and in a nursing home. Despite their diverse living situations, they both
+feel isolated and fluctuate emotionally due to perspective. Alena’s vision worsened at 21, while Dana’s
+declined around 14 or 15. Elena’s right eye needs a -13 lens to correct her eyesight. Her right eye has a
+contact lens, while her left eye has limited light perception. Dana has tunnel vision and fluctuates around
+30 dioptres.[7]</p>
+<p>Her remaining vision and memories of colors, lights, and shades shape Alena’s imagination. She has a
+great visual imagination despite her declining vision. She says colors and lights shape her worldview. Her
+imagination integrates these elements with her current sensory inputs, not just vestiges of her past visual
+experiences. Environmental sensory stimuli inspire Alena’s imagination.[7] Hearing or touching something
+can trigger a flood of vivid memories of colors and shapes. Her imagination is shown by her ability to
+recollect and incorporate these visual aspects into her current experiences. She calls this seeing “under
+certain circumstances,” where light refraction and angle of vision matter. In her mind’s eye, she can see
+the world in depth, but differently than with full sight.[7] Dana’s imagination differs from Alena’s. Over
+time, her vision deteriorated, dulling her visual imagination. Dana now uses auditory and tactile cues to
+imagine. She says weather, emotion, and weariness affect her vision.[7] Her imagination relies more on
+sensory experiences than visuals. Dana uses auditory, tactile, and visual memories to imagine people and
+locations. Her imagination is more about generating a sensory collage of sound, touch, and limited sight
+than vivid visual scenes. Her brain adapted to her eyesight loss by switching from a visual to a
+multisensory imagination.[7] Alena’s brain’s adaptation showcases cross-plasticity, where diminished visual
+capacity is partially offset by heightened use of other senses. Dana’s experience demonstrates multimodal
+plasticity, where her brain integrates auditory, tactile, and residual visual cues to form a multisensory
+imagination, compensating for her diminished sight.</p>
+<p>Alena and Dana use residual vision and other senses to navigate. Alena navigates her kitchen and
+bathroom with touch and aural clues. With her keen sense of smell, Dana can identify even minor scents
+to help her navigate. The diverse ways they perceive sensory information reveal how imagination and
+memory affect their daily lives. Alena uses residual vision and memory to build mental representations
+for vision-limited tasks. Dana’s worldview relies mainly on nonvisual senses, showing how imagination
+can compensate for blindness.[7] These experiences reveal how the brain adapts to sensory loss. The brain’s
+flexibility lets it build new connections and function without visual information. Some may have a richer
+imagination with visual aspects, while others focus on nonvisual senses. These differences show how the
+brain adapts its cognitive and creative processes to use the best sensory input after sensory loss. Alena and
+Dana’s stories show how versatile the human mind is and how imagination can overcome sensory
+limitations to paint unique and distinctive cognitive landscapes for each person.</p>
+</section>
+<section id="can-people-with-blindness-develop-rich-imagination-and-memory-without-sight">
+<h2><a class="toc-backref" href="#id13" role="doc-backlink">Can People with Blindness Develop Rich Imagination and Memory Without Sight?</a><a class="headerlink" href="#can-people-with-blindness-develop-rich-imagination-and-memory-without-sight" title="Permalink to this heading">#</a></h2>
+<p>This chapter has thoroughly examined how individuals with blindness, whether congenital or acquired,
+develop rich and nuanced cognitive abilities, challenging traditional notions about sight’s role in memory
+and imagination. The exploration of neuroplasticity, particularly in the context of sensory deprivation,
+provides profound insights into how the absence of visual input is compensated through the heightened
+utilization of other senses. Tactile tests, like tactile maps, not only facilitate memory and cognitive
+functions but also reveal the extraordinary adaptability of the human brain in reorganizing itself to
+optimize non-visual sensory information.</p>
+<p>In visually impaired individuals, the brain’s remarkable neuroplasticity fosters an enhanced capacity for
+memory formation and a vivid realm of imagination, relying on auditory, olfactory, and tactile cues. This
+enhanced sensory processing refutes the traditional idea that imagination and memory are predominantly
+visual faculties. Instead, it underscores the richness of non-visual experiences in shaping perception,
+memory, and imaginative capabilities. The discussion has shown that these experiences contribute
+significantly to our understanding of human cognition and sensory interaction, transcending mere
+empathy and inclusivity.</p>
+<p>Recognizing the diverse sensory experiences of visually impaired individuals is pivotal in redefining
+societal perspectives on human interaction with the world. It sheds light on the profound adaptability and
+cognitive capacities of the human mind, unbounded by sensory limitations. There’s an emphasis on the
+importance of valuing these unique experiences. In doing so, it advocates for a more inclusive and
+tolerant society, one that truly appreciates the diverse ways in which humans perceive and interact with
+their environment. The insights gathered here illustrate not just the resilience but also the extraordinary
+potential of the human brain to navigate, remember, and imagine in a world beyond sight, showcasing the
+limitless possibilities of human cognition.</p>
+</section>
+<section id="chapter-quiz">
+<h2><a class="toc-backref" href="#id14" role="doc-backlink">Chapter Quiz</a><a class="headerlink" href="#chapter-quiz" title="Permalink to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>In the context of visual impairment, cross-plasticity primarily refers to:</p>
+<ul class="simple">
+<li><p><strong>A.</strong> The brain’s diminished capacity for sensory processing.</p></li>
+<li><p><strong>B.</strong> The brain compensating for the loss of one sensory modality by enhancing another.</p></li>
+<li><p><strong>C.</strong> The creation of new visual pathways.</p></li>
+<li><p><strong>D.</strong> The inability of the brain to adapt to changes in sensory input.</p></li>
+</ul>
+</li>
+<li><p>The occipital cortex is significant in visual impairment studies due to its role in:</p>
+<ul class="simple">
+<li><p><strong>A.</strong> Memory formation.</p></li>
+<li><p><strong>B.</strong> Sensory perception.</p></li>
+<li><p><strong>C.</strong> Motor skills coordination.</p></li>
+<li><p><strong>D.</strong> Vision processing.</p></li>
+</ul>
+</li>
+<li><p>During Transcranial Magnetic Stimulation (TMS) studies, the presence of phosphenes is
+indicative of:</p>
+<ul class="simple">
+<li><p><strong>A.</strong> Neurological disorders.</p></li>
+<li><p><strong>B.</strong> Elevated brain activation in the visual cortex.</p></li>
+<li><p><strong>C.</strong> Decreased cognitive function.</p></li>
+<li><p><strong>D.</strong> Impaired sensory processing.</p></li>
+</ul>
+</li>
+<li><p>Multimodal plasticity in the context of visual impairment refers to:</p>
+<ul class="simple">
+<li><p><strong>A.</strong> The brain’s reduced ability to process multiple sensory inputs.</p></li>
+<li><p><strong>B.</strong> Enhanced sensory processing in one specific modality.</p></li>
+<li><p><strong>C.</strong> The reorganization of the brain’s neural network to integrate various sensory inputs without visual data.</p></li>
+<li><p><strong>D.</strong> The development of new sensory organs.</p></li>
+</ul>
+</li>
+<li><p>Functional neuroplasticity in individuals with visual impairment illustrates:</p>
+<ul class="simple">
+<li><p><strong>A.</strong> The brain’s rigidity and inability to adapt.</p></li>
+<li><p><strong>B.</strong> The redistribution of cognitive tasks among various brain regions.</p></li>
+<li><p><strong>C.</strong> The brain’s focus on enhancing only visual memories.</p></li>
+<li><p><strong>D.</strong> Permanent structural changes in the brain’s anatomy.</p></li>
+</ul>
+</li>
+<li><p>In the imagination processes of congenitally vs. acquired blind individuals, a significant distinction is:</p>
+<ul class="simple">
+<li><p><strong>A.</strong> Acquired blind individuals often develop stronger visual memories.</p></li>
+<li><p><strong>B.</strong> Congenitally blind individuals usually exhibit enhanced visual imagination.</p></li>
+<li><p><strong>C.</strong> Congenitally blind individuals often have intense non-visual imagination.</p></li>
+<li><p><strong>D.</strong> There is no notable difference between the two groups.</p></li>
+</ul>
+</li>
+<li><p>The primary benefit of tactile maps in the cognitive processes of visually impaired individuals is:</p>
+<ul class="simple">
+<li><p><strong>A.</strong> Enhanced auditory perception.</p></li>
+<li><p><strong>B.</strong> Engagement of the tactile sense for memory formation and spatial understanding.</p></li>
+<li><p><strong>C.</strong> Compensation for the loss of smell.</p></li>
+<li><p><strong>D.</strong> Improvement in taste sensitivity.</p></li>
+</ul>
+</li>
+<li><p>The prefrontal cortex’s role in memory and imagination involves:</p>
+<ul class="simple">
+<li><p><strong>A.</strong> Solely processing emotional responses.</p></li>
+<li><p><strong>B.</strong> Managing future event planning only.</p></li>
+<li><p><strong>C.</strong> Being involved in both recalling past events and imagining future scenarios.</p></li>
+<li><p><strong>D.</strong> Coordinating physical movements.</p></li>
+</ul>
+</li>
+<li><p>Structural neuroplasticity in the context of visual impairment is characterized by:</p>
+<ul class="simple">
+<li><p><strong>A.</strong> The brain’s ability to modify its functional responsibilities.</p></li>
+<li><p><strong>B.</strong> Physical alterations in the brain’s structure, such as new synaptic connections.</p></li>
+<li><p><strong>C.</strong> Unchanging neural pathways.</p></li>
+<li><p><strong>D.</strong> Enhanced focus on auditory processing.</p></li>
+</ul>
+</li>
+<li><p>Understanding the varied sensory experiences of visually impaired individuals is crucial because:</p>
+<ul class="simple">
+<li><p><strong>A.</strong> It directly improves their visual capacities.</p></li>
+<li><p><strong>B.</strong> It offers insights into human vision and cognition.</p></li>
+<li><p><strong>C.</strong> It is only relevant for medical professionals.</p></li>
+<li><p><strong>D.</strong> It enables the development of new visual technologies.</p></li>
+</ul>
+</li>
+</ol>
+<section id="answer-key">
+<h3><a class="toc-backref" href="#id15" role="doc-backlink">Answer Key:</a><a class="headerlink" href="#answer-key" title="Permalink to this heading">#</a></h3>
+<div class="toggle docutils container">
+<ol class="arabic simple">
+<li><p>B</p></li>
+<li><p>D</p></li>
+<li><p>B</p></li>
+<li><p>C</p></li>
+<li><p>B</p></li>
+<li><p>C</p></li>
+<li><p>B</p></li>
+<li><p>C</p></li>
+<li><p>B</p></li>
+<li><p>B</p></li>
+</ol>
+</div>
+</section>
+</section>
+<section id="references">
+<h2><a class="toc-backref" href="#id16" role="doc-backlink">References</a><a class="headerlink" href="#references" title="Permalink to this heading">#</a></h2>
+<div class="toggle docutils container">
+<ol class="arabic simple">
+<li><p>Rabinowitch, I., &amp; Bai, J. (2016). The foundations of cross-modal plasticity. Communicative &amp;
+integrative biology, 9(2), e1158378. <a class="reference external" href="https://doi.org/10.1080/19420889.2016.1158378">https://doi.org/10.1080/19420889.2016.1158378</a></p></li>
+<li><p>Silva, Paulo &amp; Farias, Tiago &amp; Cascio, Fernando &amp; Santos, Levi &amp; Peixoto, Vinícius &amp; Crespo,
+Eric &amp; Ayres, Carla &amp; Ayres, Marcos &amp; Marinho, Victor &amp; Bastos, Victor Hugo &amp; Ribeiro, Pedro
+&amp; Velasques, Bruna &amp; Orsini, Marco &amp; Fiorelli, Rossano &amp; de Freitas, Marcos &amp; Teixeira,
+Silmar. (2018). Neuroplasticity in visually impaired. Neurology International. 10. 7326.
+10.4081/ni.2018.7326. Neuroplasticity in visually impaired - Scientific Figure on ResearchGate.
+Available from:
+<a class="reference external" href="https://www.researchgate.net/figure/Schematic-diagram-showing-multimodal-neuroplasticity-A-In-people-with-normal-vision_fig2_329782857">https://www.researchgate.net/figure/Schematic-diagram-showing-multimodal-neuroplasticity-A-In-people-with-normal-vision_fig2_329782857</a></p></li>
+<li><p><a class="reference external" href="https://www.brainfutures.org/neuroplasticity-101/#:~:text=Functional%20plasticity%20is%20the%20brain's,brain%20to%20other%20undamaged%20areas">https://www.brainfutures.org/neuroplasticity-101/#:~:text=Functional plasticity is the brain’s,brain to other undamaged areas</a>.</p></li>
+<li><p>Elisa Castaldi, Claudia Lunghi, Maria Concetta Morrone, Neuroplasticity in adult human visual
+cortex, Neuroscience &amp; Biobehavioral Reviews, Volume 112, 2020, Pages 542-552, ISSN
+0149-7634, <a class="reference external" href="https://doi.org/10.1016/j.neubiorev.2020.02.028">https://doi.org/10.1016/j.neubiorev.2020.02.028</a></p></li>
+<li><p>Bleau, M., van Acker, C., Martiniello, N. et al. Cognitive map formation in the blind is enhanced
+by three-dimensional tactile information. Sci Rep 13, 9736 (2023).
+<a class="reference external" href="https://doi.org/10.1038/s41598-023-36578-3">https://doi.org/10.1038/s41598-023-36578-3</a></p></li>
+<li><p>Silva PR, Farias T, Cascio F, et al. Neuroplasticity in visual impairments. Neurol Int.
+2018;10(4):7326. Published 2018 Dec 19. doi:10.4081/ni.2018.7326
+<a class="reference external" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322049/#:~:text=The%20cross%2Dplasticity%20occurs%20in,were%20being%20inhibited%20by%20vision">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6322049/#:~:text=The cross-plasticity occurs in,were being inhibited by vision</a></p></li>
+<li><p>Hana Majerova, The Person in a Situation of Visual Impairment and its Perception and
+Imagination from the Qualitative Viewpoint, Procedia - Social and Behavioral Sciences, Volume
+237, 2017, Pages 751-757, ISSN 1877-0428, <a class="reference external" href="https://doi.org/10.1016/j.sbspro.2017.02.117">https://doi.org/10.1016/j.sbspro.2017.02.117</a>.</p></li>
+<li><p>Fernandez, E. Development of visual Neuroprostheses: trends and challenges. Bioelectron Med 4,
+12 (2018). <a class="reference external" href="https://doi.org/10.1186/s42234-018-0013-8">https://doi.org/10.1186/s42234-018-0013-8</a></p></li>
+</ol>
+</div>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="sensory_loss_chapter_zu.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Neuroplasticity and sensory loss: The brain reorganization after amputation and impairment of senses</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="alzheimers_chapter_megha.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Brain in Peril: The Effect of Alzheimer’s On Plasticity</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cross-plasticity">Cross-Plasticity:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#multimodal-plasticity">Multimodal Plasticity:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#functional-and-structural-neuroplasticity">Functional and structural neuroplasticity:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vision-loss-and-brain-impact">Vision Loss and Brain Impact:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#early-life-experiences-and-neural-plasticity">Early Life Experiences and Neural Plasticity:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#specific-visual-deprivation-studies">Specific Visual Deprivation Studies</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#impact-of-temporary-visual-deprivation-on-the-brain-a-neuroplasticity-study">Impact of Temporary Visual Deprivation on the Brain: A Neuroplasticity Study</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#neuroplasticity-and-memory-in-visually-impaired-individuals">Neuroplasticity and Memory in Visually Impaired Individuals</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-role-of-tactile-maps-in-enhancing-memory">The Role of Tactile Maps in Enhancing Memory</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#variability-in-imagination">Variability in Imagination:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#case-study-alena-and-danas-experiences">Case Study– Alena and Dana’s Experiences</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#can-people-with-blindness-develop-rich-imagination-and-memory-without-sight">Can People with Blindness Develop Rich Imagination and Memory Without Sight?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#chapter-quiz">Chapter Quiz</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#answer-key">Answer Key:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By NEUR 388
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

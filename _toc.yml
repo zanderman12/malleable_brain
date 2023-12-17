@@ -1,0 +1,24 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+
+- file: genetics_chapter_adrienne
+- file: aging_chapter_anait
+- file: landscapes_chapter_alex
+- file: sleep_chapter_sam
+- file: exercise_chapter_zoya
+- file: movement_chapter_lauren
+- file: music_chapter_troy
+- file: music_chapter_kristina
+- file: drugs_chapter_moonlight
+- file: technology_chapter_candi
+- file: sensory_loss_chapter_zu.md
+- file: blindness_plasticity_asya
+- file: alzheimers_chapter_megha
+- file: migraine_chapter_morgan
+
+
+
